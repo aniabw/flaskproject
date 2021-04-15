@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  uk_driving_licence_api:
+    build:
+      context: ./
+    ports:
+      - "8080:8080"
